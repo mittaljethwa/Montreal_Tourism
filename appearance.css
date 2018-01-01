@@ -1,0 +1,205 @@
+/*
+	Jethwa, Mittal
+	Class Account #jadrn020
+	Project #1
+	Fall 2017
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	min-width: 900px;
+	font-size: 18px;
+}
+
+.container-header, #container-body {
+	margin: 10px;
+	padding: 10px;
+}
+
+.index-body {
+	background-image: url('city.jpg');
+}
+.container {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.title {
+	color: white;
+	font-family: "bookman old style",sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 10px;
+	text-shadow: 1px 1px 5px #000000;
+}
+
+#container-body {
+	margin-top: 20px;
+	border-top-style: solid; 
+	font-family: helvetica,sans-serif;
+}
+
+.right-align {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav-menu-main li {
+	list-style-type: none;
+	display: inline;
+}
+
+.nav-menu-main li a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Palatino Linotype",sans-serif;
+	text-shadow: 1px 1px 5px #000000;
+	padding: 8px;
+	margin: 5px;
+}
+
+.nav-menu-main li a:hover {
+	background-color: black;
+	border-color: white;
+	border-style: solid;
+}
+
+li a:active {
+	text-decoration: underline;
+}
+
+#selected {
+	border-bottom: 1px solid #FFF;	
+	padding-bottom: 2px;
+}
+
+.external-link {
+	text-decoration: underline;
+	color: white;
+	font-style: italic;
+}
+
+/* CSS for history.html begins */
+
+.history-body {
+	background-image: url('history.jpg');
+}
+
+#container-main {
+	border-style: solid;
+	border-radius: 10px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin: 15px;
+	height: 100%;
+}
+
+.nav-bar-main {
+	margin-top: 20px;
+}
+
+p {
+	text-indent: 25px;
+	margin: 15px;
+}
+
+table, td, th, caption {
+	border: 1px solid #FFF;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+td {
+	font-size: 16px;
+	padding: 5px;
+}
+
+th {
+	font-weight: bold;
+	padding: 8px;
+}
+
+caption {
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+
+#history-tbl {
+	float : right;
+	border: 5px solid #FFF;
+	margin: 10px;
+	/*width: 50%; */
+}
+
+/* CSS for history.html ends */
+
+
+/* CSS for neighbourhoods.html begins */
+.neighbourhoods-body {
+	background-image: url('neighbourhoods.jpg');
+}
+
+
+.places {
+	margin: 15px;
+	padding: 20px;
+	border: 1px solid #FFF;
+	overflow: auto;
+}
+.places-header {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: garamond,sans-serif;
+	margin-left: 10px;
+}
+
+.places-img-holder {
+	margin: 10px;
+	padding: 5px;
+	float:left;
+}
+
+.places-img-holder img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 500px;
+	height: auto;
+	border: 1px solid #FFF;
+}
+
+.places-body p{
+	margin: 10px;
+	padding: 5px;
+}
+/* CSS for neighbourhoods.html ends */
+
+
+.must-see-body {
+	background-image: url('must-see.jpg');
+}
+
+.art-architecture-body {
+	background-image: url('art-architecture.jpg');
+}
+
+.food-body {
+	background-image: url('food.jpg');
+}
